@@ -4,7 +4,7 @@
 		<title>Gift Store</title>
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
@@ -24,16 +24,16 @@
 						</ul>
 					</nav>
 					<div class="header-button">
-						<a href="" class="header__btn btn">Gift finder</a>
+						<a href="" class="header__btn btn btn--transparent">Gift finder</a>
 					</div>
 				</div>
 			</header>
 			<div class="content">
-				<main class="main">
+				<section class="main">
 					<div class="main-body">
 						<div class="main-column">
 							<div class="main-column-body">
-								<h1 class="main__title">Find a gift for your wife or girlfriend</h1>
+								<h1 class="main__title">Find a gift for <br>your wife or <br>girlfriend</h1>
 								<p class="main__subtitle">Struggling to find a gift for your wife or girlfriend? No problem!</p>
 								<div class="main-button">
 									<a href="" class="main-button__btn btn btn--y">Find gift now</a>
@@ -41,23 +41,21 @@
 							</div>
 						</div>
 						<div class="main-column">
-							<div class="main__image"></div>
-							<!--<img class="main__image" src="img/main/01.jpg" alt="">-->
+							<img class="main__image" src="img/main/01.jpg" alt="">
 						</div>
 					</div>
-					<img class="main-image__img" src="img/main/01.jpg" alt="">
-				</main>
+				</section>
 				<section class="work" id="about">
 					<div class="work-body">
 						<div class="work-column">
-							<div class="work__image"></div>
+							<img class="work__image" src="img/work/01.jpg" alt="">
 						</div>
 						<div class="work-column">
 							<div class="work-column-body">
-								<h2 class="work__title">How we work</h2>
+								<h2 class="work__title title--h2">How we work</h2>
 								<p class="work__subtitle">We've actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.</p>
 								<div class="work-button">
-									<a href="" class="work-button__btn btn">Learn more</a>
+									<a href="" class="work-button__btn btn btn--transparent">Learn more</a>
 								</div>
 							</div>
 						</div>
@@ -65,52 +63,70 @@
 				</section>
 				<section class="gifts" id="services">
 					<div class="container">
-						<h2 class="gifts__title">Gifts for all Occasions</h2>
+						<h2 class="gifts__title title--h2">Gifts for all Occasions</h2>
 						<p class="gifts__subtitle">"Try our web app to find the best gifts for all occasions"</p>
 						<div class="gifts-body">
 							<div class="gifts-column">
 								<div class="gifts-item">
-									<a class="gifts-item__image"><img src="img/gifts/01.jpg" alt=""></a>
-									<a class="gifts-item__subtitle">Birthday</a>
-									<a class="gifts-item__link">See More &gt;</a>
+									<img src="img/gifts/01.jpg" alt="" class="gifts-item__image">
+									<div class="gifts-item-bottom">
+										<h4 class="gifts-item__title">Birthday</h4>
+										<div class="gifts-item__link">
+											<a href="">See More &gt;</a>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div class="gifts-column">
 								<div class="gifts-item">
-									<a class="gifts-item__image"><img src="img/gifts/02.jpg" alt=""></a>
-									<a class="gifts-item__subtitle">Anniversary</a>
-									<a class="gifts-item__link">See More &gt;</a>
+									<img src="img/gifts/02.jpg" alt="" class="gifts-item__image">
+									<div class="gifts-item-bottom">
+										<h4 class="gifts-item__title">Anniversary</h4>
+										<div class="gifts-item__link">
+											<a href="">See More &gt;</a>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div class="gifts-column">
 								<div class="gifts-item">
-									<a class="gifts-item__image"><img src="img/gifts/03.jpg" alt=""></a>
-									<a class="gifts-item__subtitle">Valentine's Day</a>
-									<a class="gifts-item__link">See More &gt;</a>
+									<img src="img/gifts/03.jpg" alt="" class="gifts-item__image">
+									<div class="gifts-item-bottom">
+										<h4 class="gifts-item__title">Valentine's Day</h4>
+										<div class="gifts-item__link">
+											<a href="">See More &gt;</a>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div class="gifts-column">
 								<div class="gifts-item">
-									<a class="gifts-item__image"><img src="img/gifts/04.jpg" alt=""></a>
-									<a class="gifts-item__subtitle">Christmas</a>
-									<a class="gifts-item__link">See More &gt;</a>
+									<img src="img/gifts/04.jpg" alt="" class="gifts-item__image">
+									<div class="gifts-item-bottom">
+										<h4 class="gifts-item__title">Christmas</h4>
+										<div class="gifts-item__link">
+											<a href="">See More &gt;</a>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
 				<section class="start">
-					<div class="start-container">
+					<div class="container">
 						<div class="start-body">
-							<div class="start-body-row">
-								<div class="start-column">
-									<h2 class="start__title title--b">Ready to get started?</h2>
-									<p class="start__subtitle">Sign up or contact us</p>
-								</div>
-								<div class="start-column">
-									<div class="start-column-buttons">
-										<a href="" class="start__button btn btn--gb">Find gift now</a>
-										<a href="" class="start__button btn btn--g">How it works</a>
+							<div class="start-column">
+								<h2 class="start__title title--h2">Ready to get started?</h2>
+								<h2 class="start__subtitle title--h2">Sign up or contact us</h2>
+							</div>
+							<div class="start-column">
+								<div class="start-column-buttons">
+									<div class="start-button">
+										<a href="" class="start__button btn btn--brown">Find gift now</a>
+									</div>
+									<div class="start-button">
+										<a href="" class="start__button btn btn--brown-transparent">How it works</a>
 									</div>
 								</div>
 							</div>
@@ -119,81 +135,75 @@
 				</section>
 				<section class="blog" id="blogs">
 					<div class="container">
-						<h2 class="blog__title">Our Best Blogs Ever</h2>
+						<h2 class="blog__title title--h2">Our Best Blogs Ever</h2>
 						<p class="blog__subtitle">“Try our blog to find the best tips and tricks to select your gift”</p>
 						<div class="blog-body">
-							<div class="blog-top">
-								<div class="blog-top-body">
-									<div class="blog-top-image">
-										<div class="blog-top__image"></div>
-									</div>
-									<div class="blog-top-column">
-										<div class="blog-top-column-body">
-											<p class="blog-top__subtitle">Mr. John Doe</p>
-											<h2 class="blog-top__title">The best way to wish your wife</h2>
-											<div class="blog-top-link">
-												<a href="" class="blog-top__link">Read More</a>
-											</div>
-										</div>
-									</div>
-								</div>
+							<div class="blog-body-column">
+								<img src="img/blog/01.jpg" alt="" class="blog-body__image">
 							</div>
-							<div class="blog-footer">
-								<div class="blog-footer-body">
-									<div class="blog-footer-column column--shadow">
-										<div class="blog-footer-item">
-											<h3 class="blog-footer__title">Database to find the gifts for your girlfriend</h3>
-											<p class="blog-footer__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis est, expedita error nostrum voluptatem!</p>
-											<div class="blog-footer-link">
-												<a href="" class="blog-footer__link">Read More</a>
-											</div>
-										</div>
-									</div>
-									<div class="blog-footer-column">
-										<div class="blog-footer-item">
-											<h3 class="blog-footer__title">How Artificial Intelligence read your mind to find the best gift</h3>
-											<p class="blog-footer__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis est, expedita error nostrum voluptatem!</p>
-											<div class="blog-footer-link">
-												<a href="" class="blog-footer__link">Read More</a>
-											</div>
-										</div>
+							<div class="blog-body-column">
+								<div class="blog-body-column-item">
+									<p class="blog-body__subtitle">Mr. John Doe</p>
+									<h2 class="blog-body__title">The best way to wish your wife</h2>
+									<div class="blog-body-link">
+										<a href="" class="blog-body__link">Read More</a>
 									</div>
 								</div>
 							</div>
 						</div>
+						<div class="blog-bottom">
+							<div class="blog-bottom-column">
+								<div class="blog-bottom-item">
+									<h3 class="blog-bottom__title">Database to find the gifts for your girlfriend</h3>
+									<p class="blog-bottom__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis est, expedita error nostrum voluptatem!</p>
+									<div class="blog-bottom-link">
+										<a href="" class="blog-bottom__link">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="blog-bottom-column">
+								<div class="blog-bottom-item">
+									<h3 class="blog-bottom__title">How Artificial Intelligence read your mind to find the best gift</h3>
+									<p class="blog-bottom__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis est, expedita error nostrum voluptatem!</p>
+									<div class="blog-bottom-link">
+										<a href="" class="blog-bottom__link">Read More</a>
+									</div>
+								</div>
+							</div>
+						</div>	
 					</div>
 				</section>
 			</div>
 			<footer class="footer">
-				<div class="footer-container">
+				<div class="container">
 					<div class="footer-body">
-						<div class="footer-row">
+						<div class="footer-body__top">
 							<div class="footer-menu">
-								<a href="" class="footer-menu__link">Home</a>
-								<a href="" class="footer-menu__link">About</a>
-								<a href="" class="footer-menu__link logo logo--y">logo</a>
-								<a href="" class="footer-menu__link">Service</a>
-								<a href="" class="footer-menu__link">Blog</a>
+								<ul class="footer__list">
+									<li><a href="" class="footer__link">Home</a></li>
+									<li><a href="#about" class="footer__link">About</a></li>
+									<li><a href="" class="logo logo--yellow">logo</a></li>
+									<li><a href="#services" class="footer__link">Service</a></li>
+									<li><a href="#blogs" class="footer__link">Blog</a></li>
+								</ul>
 							</div>
 						</div>
-						<div class="footer-row">
-							<div class="footer__line"></div>
-						</div>
-						<div class="footer-row">
+						<div class="footer__devider"></div>
+						<div class="footer-body__body">
 							<div class="footer-social">
-								<a href="" class="footer-social__link"><img src="img/footer/social/01.svg" alt=""></a>
-								<a href="" class="footer-social__link"><img src="img/footer/social/02.svg" alt=""></a>
-								<a href="" class="footer-social__link"><img src="img/footer/social/03.svg" alt=""></a>
-								<a href="" class="footer-social__link"><img src="img/footer/social/04.svg" alt=""></a>
-								<a href="" class="footer-social__link"><img src="img/footer/social/05.svg" alt=""></a>
+								<ul class="footer-social__list">
+									<li><a href="#" class="footer-social__link"><img src="img/footer/social/01.svg" alt=""></a></li>
+									<li><a href="#" class="footer-social__link"><img src="img/footer/social/02.svg" alt=""></a></li>
+									<li><a href="#" class="footer-social__link"><img src="img/footer/social/03.svg" alt=""></a></li>
+									<li><a href="#" class="footer-social__link"><img src="img/footer/social/04.svg" alt=""></a></li>
+									<li><a href="#" class="footer-social__link"><img src="img/footer/social/05.svg" alt=""></a></li>
+								</ul>
 							</div>
 						</div>
-						<div class="footer-row">
-							<div class="footer-copyright">
-								<p class="footer-copyright__text">&copy; 2010 - 2020&nbsp;&nbsp;
-									<a href="" class="footer-copyright__link">Privacy - Terms</a>
-								</p>
-							</div>
+						<div class="footer-body__bottom">
+							<p class="footer-copyright__text">&copy; 2010 - 2020&nbsp;&nbsp;
+								<a href="#" class="footer-copyright__link">Privacy - Terms</a>
+							</p>
 						</div>
 					</div>
 				</div>
